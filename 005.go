@@ -8,10 +8,10 @@ func P005() string {
 	for i := step; ; i += step {
 		ok := true
 		for j := 1; j < 21; j++ {
-			if i % j != 0 {
+			if i%j != 0 {
 				ok = false
 				break
-			} 
+			}
 		}
 		if ok {
 			r = i

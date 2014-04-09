@@ -6,12 +6,12 @@ import (
 
 func TestIsPalindrome(t *testing.T) {
 	var truth map[string]bool = map[string]bool{
-		"aba": true,
-		"aa" : true,
-		"abc": false,
-		"abcddcba" : true,
-		"abcdcba" : true,
-		"abcdecba" : false,
+		"aba":      true,
+		"aa":       true,
+		"abc":      false,
+		"abcddcba": true,
+		"abcdcba":  true,
+		"abcdecba": false,
 	}
 
 	for in, expected := range truth {
