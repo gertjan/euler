@@ -20,7 +20,7 @@ func TestNumberOfDivisors(t *testing.T) {
 	for in, expected := range truth {
 		actual := numberOfDivisors(in)
 		if actual != expected {
-			t.Errorf("numberOfDivisors(%v): expected %t, got %t\n", in, expected, actual)
+			t.Errorf("numberOfDivisors(%v): expected %v, got %v\n", in, expected, actual)
 		}
 	}
 }
