@@ -53,3 +53,9 @@ func factors(n int) []int {
 
 	return factors
 }
+
+func primesUntil(limit int) []int {
+	isPrime(limit)
+	idx := sort.SearchInts(primes, limit)
+	return primes[:idx]
+}
