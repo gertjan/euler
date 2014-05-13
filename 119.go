@@ -35,7 +35,7 @@ func P119() string {
 	return fmt.Sprintf("%v", a[29])
 }
 
-func product(a []uint64) uint64 {
+func product(a ...uint64) uint64 {
 	prod := uint64(1)
 	for _, i := range a {
 		prod *= i
