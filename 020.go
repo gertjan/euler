@@ -12,5 +12,5 @@ func P020() string {
 	for i := 2; i <= 100; i++ {
 		n.Mul(n, big.NewInt(int64(i)))
 	}
-	return fmt.Sprintf("%v", digital.Sum(n.String()))
+	return fmt.Sprint(digital.Sum(n.String()))
 }

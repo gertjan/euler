@@ -9,5 +9,5 @@ func P015() string {
 	for i := uint64(1); i <= n; i++ {
 		result = result * (n + i) / i
 	}
-	return fmt.Sprintf("%v", result)
+	return fmt.Sprint(result)
 }

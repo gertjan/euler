@@ -10,5 +10,5 @@ func P003() string {
 			max = f
 		}
 	}
-	return fmt.Sprintf("%v", max)
+	return fmt.Sprint(max)
 }

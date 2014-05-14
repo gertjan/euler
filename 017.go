@@ -8,5 +8,5 @@ func P017() string {
 		s := toLetters(i)
 		n += countLetters(s)
 	}
-	return fmt.Sprintf("%v", n)
+	return fmt.Sprint(n)
 }

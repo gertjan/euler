@@ -17,5 +17,5 @@ func P089(in io.Reader) string {
 		mr := minRoman(d)
 		reduced += (len(roman) - len(mr))
 	}
-	return fmt.Sprintf("%v", reduced)
+	return fmt.Sprint(reduced)
 }

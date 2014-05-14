@@ -39,7 +39,7 @@ func P011(in io.Reader) string {
 			}
 		}
 	}
-	return fmt.Sprintf("%v", max)
+	return fmt.Sprint(max)
 }
 
 func readGrid(in io.Reader) [][]uint64 {

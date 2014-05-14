@@ -10,5 +10,5 @@ import (
 func P016() string {
 	n := new(big.Int)
 	n.SetBit(n, 1000, 1)
-	return fmt.Sprintf("%v", digital.Sum(n.String()))
+	return fmt.Sprint(digital.Sum(n.String()))
 }

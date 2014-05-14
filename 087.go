@@ -30,5 +30,5 @@ func P087() string {
 			}
 		}
 	}
-	return fmt.Sprintf("%v", len(numbers))
+	return fmt.Sprint(len(numbers))
 }

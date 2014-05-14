@@ -15,5 +15,5 @@ func P019() string {
 			result++
 		}
 	}
-	return fmt.Sprintf("%v", result)
+	return fmt.Sprint(result)
 }

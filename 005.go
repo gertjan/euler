@@ -18,5 +18,5 @@ func P005() string {
 			break
 		}
 	}
-	return fmt.Sprintf("%v", r)
+	return fmt.Sprint(r)
 }

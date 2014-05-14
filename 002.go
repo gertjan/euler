@@ -11,5 +11,5 @@ func P002() string {
 		}
 		a, b = b, a+b
 	}
-	return fmt.Sprintf("%v", sum)
+	return fmt.Sprint(sum)
 }

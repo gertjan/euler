@@ -25,5 +25,5 @@ func P096(in io.Reader) string {
 		sum += s.Values(0, 1)[0] * 10
 		sum += s.Values(0, 2)[0]
 	}
-	return fmt.Sprintf("%v", sum)
+	return fmt.Sprint(sum)
 }

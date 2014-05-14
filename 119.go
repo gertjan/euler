@@ -32,7 +32,7 @@ func P119() string {
 		}
 	}
 	sort.Sort(Ascending(a))
-	return fmt.Sprintf("%v", a[29])
+	return fmt.Sprint(a[29])
 }
 
 func product(a ...uint64) uint64 {
@@ -52,7 +52,7 @@ func sum(a []uint64) uint64 {
 }
 
 func digits(i uint64) []uint64 {
-	digits := fmt.Sprintf("%v", i)
+	digits := fmt.Sprint(i)
 	result := make([]uint64, len(digits))
 
 	for i, d := range digits {

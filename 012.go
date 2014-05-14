@@ -14,7 +14,7 @@ func P012() string {
 		}
 	}
 	kill <- true
-	return fmt.Sprintf("%v", n)
+	return fmt.Sprint(n)
 }
 
 func triangles() (<-chan int, chan<- bool) {

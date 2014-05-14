@@ -9,5 +9,5 @@ func P001() string {
 			sum += i
 		}
 	}
-	return fmt.Sprintf("%v", sum)
+	return fmt.Sprint(sum)
 }

@@ -22,7 +22,7 @@ func P022(in io.Reader) string {
 	for i, n := range names {
 		result += (i + 1) * alphaValue(n)
 	}
-	return fmt.Sprintf("%v", result)
+	return fmt.Sprint(result)
 }
 
 func alphaValue(s string) int {

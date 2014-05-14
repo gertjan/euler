@@ -25,7 +25,7 @@ func P008(in io.Reader) string {
 			maxproduct = p
 		}
 	}
-	return fmt.Sprintf("%v", maxproduct)
+	return fmt.Sprint(maxproduct)
 }
 
 func prod(digits []int) int {

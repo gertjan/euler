@@ -19,5 +19,5 @@ func P013(in io.Reader) string {
 	}
 
 	digits := []byte(sum.String())
-	return fmt.Sprintf("%v", string(digits[:10]))
+	return fmt.Sprint(string(digits[:10]))
 }

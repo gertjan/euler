@@ -31,7 +31,7 @@ func P014() string {
 			}
 		}
 	}
-	return fmt.Sprintf("%v", maxn)
+	return fmt.Sprint(maxn)
 }
 
 func nextCollatz(n int) int {

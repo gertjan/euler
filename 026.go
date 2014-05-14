@@ -9,7 +9,7 @@ func P026() string {
 		rseen := make(map[int]int)
 		k := 0
 		for j := 10; j != 0; j *= 10 {
-			j = j%i
+			j = j % i
 			k++
 			if pj, found := rseen[j]; found {
 				if nmax := k - pj; nmax > max {
@@ -22,5 +22,5 @@ func P026() string {
 			}
 		}
 	}
-	return fmt.Sprint( imax)
+	return fmt.Sprint(imax)
 }

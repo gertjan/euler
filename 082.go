@@ -60,5 +60,5 @@ func P082(in io.Reader) string {
 			minPath = cp
 		}
 	}
-	return fmt.Sprintf("%v", minPath)
+	return fmt.Sprint(minPath)
 }

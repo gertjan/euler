@@ -14,5 +14,5 @@ func P021() string {
 			sumPairs += i
 		}
 	}
-	return fmt.Sprintf("%v", sumPairs)
+	return fmt.Sprint(sumPairs)
 }

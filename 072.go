@@ -19,5 +19,5 @@ func P072() string {
 		}
 		result += phi[i]
 	}
-	return fmt.Sprintf("%v", result)
+	return fmt.Sprint(result)
 }

@@ -32,7 +32,7 @@ func P018(in io.Reader) string {
 			row = []int{}
 		}
 	}
-	return fmt.Sprintf("%v", maxi(max...))
+	return fmt.Sprint(maxi(max...))
 }
 
 func maxi(n ...int) int {

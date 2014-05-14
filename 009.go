@@ -22,5 +22,5 @@ func P009() string {
 			}
 		}
 	}
-	return fmt.Sprintf("%v", p)
+	return fmt.Sprint(p)
 }
