@@ -3,12 +3,14 @@ package euler
 import (
 	"fmt"
 	"math"
+
+	"github.com/gertjan/euler/primes"
 )
 
 func P087() string {
 	limit := 50000000
 	root := int(math.Sqrt(float64(limit)))
-	p := primesUntil(root)
+	p := primes.New().Slice(root)
 	pow := make([][]int, len(p))
 	for i, prime := range p {
 		p2 := prime * prime

@@ -1,9 +1,13 @@
 package euler
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/gertjan/euler/primes"
+)
 
 func P003() string {
-	factors := factors(600851475143)
+	factors := primes.New().Factors(600851475143)
 	max := 0
 	for _, f := range factors {
 		if f > max {
