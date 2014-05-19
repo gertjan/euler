@@ -9,4 +9,3 @@ func Sum(n string) uint64 {
 	}
 	return s
 }
-

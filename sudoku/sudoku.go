@@ -51,7 +51,7 @@ func (g grid) String() string {
 func (g grid) search() bool {
 	g.pruneAll()
 	switch {
-  case g.Solved():
+	case g.Solved():
 		return true
 	case !g.valid():
 		return false
@@ -93,7 +93,7 @@ func (g grid) makeGuess() guess {
 	for x := 0; x < dimension; x++ {
 		for y := 0; y < dimension; y++ {
 			if l := len(g[x][y]); l > 1 {
-					guesses = append(guesses, guess{x:x, y:y, l:l})
+				guesses = append(guesses, guess{x: x, y: y, l: l})
 			}
 		}
 	}
