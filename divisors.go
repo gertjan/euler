@@ -4,6 +4,16 @@ import (
 	"math"
 )
 
+func gcd(a, b int) int {
+	var r int
+	for b != 0 {
+		r = a % b
+		a = b
+		b = r
+	}
+	return a
+}
+
 func sumOfDivisors(n int) int {
 	if n == 1 {
 		return 0
