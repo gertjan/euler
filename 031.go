@@ -9,7 +9,7 @@ func P031() string {
 	ways[0] = 1
 	for i := range coins {
 		for j := coins[i]; j <= target; j++ {
-			ways[j] += ways[j - coins[i]]
+			ways[j] += ways[j-coins[i]]
 		}
 	}
 	return fmt.Sprint(ways[target])
